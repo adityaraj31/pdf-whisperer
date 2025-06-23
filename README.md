@@ -39,6 +39,8 @@ export GROQ_API_KEY=your_actual_key_here
 streamlit run app.py
 ```
 
+---
+
 ### 🚀 Demo Screenshot
 
 ![Screenshot (214)](https://github.com/user-attachments/assets/a216ed24-3824-481e-a53f-2009fa67dfd5)

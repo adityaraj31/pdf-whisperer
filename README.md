@@ -2,7 +2,9 @@
 
 **PDF Whisperer** is an AI-powered chatbot that lets you upload PDFs (research papers, resumes, job descriptions, etc.) and ask intelligent, ChatGPT-style questions — all powered locally using LangChain, FAISS, Groq LLMs, and Sentence Transformers.
 
+
 ---
+
 
 ## ⚙️ How to Use
 
@@ -39,7 +41,9 @@ export GROQ_API_KEY=your_actual_key_here
 streamlit run app.py
 ```
 
+
 ---
+
 
 ### 🚀 Demo Screenshot
 

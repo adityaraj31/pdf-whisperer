@@ -5,57 +5,12 @@
 ---
 
 ### 🚀 Demo Screenshot
+![Screenshot (214)](https://github.com/user-attachments/assets/a216ed24-3824-481e-a53f-2009fa67dfd5)
+![Screenshot (215)](https://github.com/user-attachments/assets/e8d95a11-d88b-4098-9835-36d71c8ed7cf)
 
-![App Screenshot](./demo_screenshot.png)
 
----
 
-## 🧠 Features
-
-- 📄 Upload any English PDF (JDs, resumes, research papers)
-- 🧱 Automatically chunk + embed documents using `all-MiniLM-L6-v2`
-- 🔎 Retrieve document-specific answers with FAISS
-- 💬 Ask follow-up questions using conversation memory
-- ⚡ Super-fast LLMs via Groq (Mixtral, Gemma, LLaMA 3)
-- 🌐 Clean Streamlit interface — just upload and chat!
-
----
-
-## 🛠 Tech Stack
-
-| Tool                  | Use                                             |
-|-----------------------|--------------------------------------------------|
-| **LangChain**         | RAG, retriever, and memory chains               |
-| **Groq**              | Access to hosted Mixtral, Gemma, LLaMA-3 LLMs   |
-| **FAISS**             | Local vector store for document embeddings      |
-| **Sentence Transformers** | Local embeddings (`all-MiniLM-L6-v2`)   |
-| **PyPDF**             | Extract text from PDFs                          |
-| **Streamlit**         | Build the user interface                        |
-
----
-
-## 📂 Folder Structure
-
-```
-pdf-whisperer/
-│
-├── data/                  # Uploaded PDFs (ignored)
-├── embeddings/            # FAISS index files (ignored)
-├── src/
-│   ├── loader.py          # PDF loading and chunking
-│   ├── embedder.py        # FAISS embedding and retrieval
-│   ├── qa_chain.py        # Groq + memory + retriever chain
-│
-├── app.py                 # Streamlit frontend
-├── requirements.txt       # Python dependencies
-├── .env                   # API key storage (ignored)
-├── .gitignore             # Files/folders to exclude from Git
-└── README.md              # Project documentation
-```
-
----
-
-## ⚙️ Getting Started
+## ⚙️ How to Use
 
 ### 1. Clone this repository
 
@@ -90,70 +45,3 @@ export GROQ_API_KEY=your_actual_key_here
 streamlit run app.py
 ```
 
-> Open `http://localhost:8501` in your browser.
-
----
-
-## 🗂 Example Use Cases
-
-- 👨‍💼 Analyze job descriptions to align resumes
-- 📚 Quickly understand large research papers
-- 📝 Summarize content-heavy PDFs
-- 🧠 Ask follow-up or deep-dive questions from a document
-
----
-
-## 📄 Sample `.gitignore`
-
-```gitignore
-# Python
-__pycache__/
-*.py[cod]
-*.log
-
-# Virtual environments
-venv/
-
-# Secrets
-.env
-.streamlit/secrets.toml
-
-# FAISS Vector DB
-embeddings/
-*.faiss
-
-# Uploaded PDFs
-data/
-
-# System
-.DS_Store
-Thumbs.db
-
-# Editor
-.vscode/
-```
-
----
-
-## 💡 Future Ideas
-
-- [ ] Add multi-PDF upload support
-- [ ] Highlight source context in responses
-- [ ] Deploy to Hugging Face Spaces or Streamlit Cloud
-- [ ] Save and export conversation history
-
----
-
-## 🙌 Credits
-
-- [LangChain](https://www.langchain.com/)
-- [Groq](https://console.groq.com/)
-- [FAISS](https://github.com/facebookresearch/faiss)
-- [Sentence-Transformers](https://www.sbert.net/)
-- [Streamlit](https://streamlit.io/)
-
----
-
-## 📜 License
-
-MIT License. Feel free to fork and build on this project.

@@ -4,12 +4,6 @@
 
 ---
 
-### 🚀 Demo Screenshot
-![Screenshot (214)](https://github.com/user-attachments/assets/a216ed24-3824-481e-a53f-2009fa67dfd5)
-![Screenshot (215)](https://github.com/user-attachments/assets/e8d95a11-d88b-4098-9835-36d71c8ed7cf)
-
-
-
 ## ⚙️ How to Use
 
 ### 1. Clone this repository
@@ -44,4 +38,10 @@ export GROQ_API_KEY=your_actual_key_here
 ```bash
 streamlit run app.py
 ```
+
+### 🚀 Demo Screenshot
+
+![Screenshot (214)](https://github.com/user-attachments/assets/a216ed24-3824-481e-a53f-2009fa67dfd5)
+
+![Screenshot (215)](https://github.com/user-attachments/assets/e8d95a11-d88b-4098-9835-36d71c8ed7cf)
 

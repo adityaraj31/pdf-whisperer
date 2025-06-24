@@ -2,9 +2,9 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.vectorstores import FAISS
 from langchain.memory import ConversationBufferMemory
 from langchain_groq import ChatGroq
-from dotenv import load_dotenv
-load_dotenv()
+import streamlit as st
 import os
+
 
 def load_faiss_vectorstore(faiss_path="embeddings/faiss_index", embedding_model=None):
     """

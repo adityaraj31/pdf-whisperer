@@ -1,31 +1,19 @@
 # Python
 __pycache__/
 *.py[cod]
-*.egg-info/
 *.log
-*.sqlite3
-*.db
 
-# Environment
-.env
+# Virtual environment
 venv/
-.envrc
 
-# FAISS Vector DB
-embeddings/
-*.faiss
-
-# Streamlit
+# Secrets & Keys
+.env
 .streamlit/secrets.toml
-.streamlit/
 
-# Jupyter/VS Code
-.ipynb_checkpoints/
-.vscode/
-
-# OS/Editor
-.DS_Store
-Thumbs.db
-
-# PDFs / Uploaded Docs
+# FAISS + Uploaded files
+embeddings/
 data/
+
+# Misc
+.DS_Store
+.vscode/

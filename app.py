@@ -8,6 +8,7 @@ import tempfile
 
 st.set_page_config(page_title="AI PDF Assistant", layout="wide")
 
+# Ensure Groq API key is set
 # Sidebar for upload and info
 with st.sidebar:
     st.title("📄 PDF Whisperer")

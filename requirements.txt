@@ -1,7 +1,9 @@
 streamlit
 langchain
+langchain-community
+langchain-groq
 groq
+sentence-transformers
 faiss-cpu
 pypdf
-sentence-transformers
 tiktoken
